@@ -73,13 +73,16 @@
                             <div class="form-group">
                                 <label for="">Provinsi</label>
                                 <select name="province_origin" id="" class="form-control">
-                                    <option value="#">-</option>
+                                    <option value="">-</option>
+                                    @foreach ($province as $key => $value)
+                                        <option value="{{ $key }}">{{ $value }}</option>                                        
+                                    @endforeach
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="">Kota/Kabupaten</label>
                                 <select name="city_origin" id="" class="form-control">
-                                    <option value="#">-</option>
+                                    <option value="">-</option>
                                 </select>
                             </div>
                             <h5 class="text-muted">Tujuan Pengirim:</h5>
