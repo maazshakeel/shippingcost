@@ -22,6 +22,7 @@
     },
     "dependencies": {
         "ajax": "^0.0.4",
-        "jquery": "^3.6.4"
+        "jquery": "^3.6.4",
+        "select2": "^4.1.0-rc.0"
     }
 }

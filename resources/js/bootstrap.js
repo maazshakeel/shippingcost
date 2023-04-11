@@ -3,6 +3,7 @@ window.$ = require('jquery');
 
 try {
     require('bootstrap');
+    require('select2');
 } catch (e) {}
 
 /**
